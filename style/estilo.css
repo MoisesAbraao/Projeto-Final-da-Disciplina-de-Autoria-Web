@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	color: #444;
+}
+body {
+	/*background: #EEE;*/
+}
+a {
+	color: #444;
+	text-decoration: none;
+}
+#menu {
+	position: fixed;
+	background: #00979C;
+	display: block;
+	width: 100%;
+	height: 40px;
+}
+#menu ul {
+	list-style: none;
+	width: 900px;
+	margin: 0 auto;
+}
+#menu ul li {
+	float: left;
+}
+#menu ul li a {
+	line-height: 30px;
+	display: table;
+	padding: 5px 20px;
+	color: #EEE;
+}
+
+#menu ul li a:hover, .active {
+	background: #00797d;
+	color: #DDD;
+}
+#conteudo {
+	padding: 50px 10px 10px 10px;
+	width: 880px;
+	margin: 0 auto;
+	background: #f1f1f1;
+	overflow: hidden;
+}
+
+#rodape {
+	margin: 0 auto;
+	background: #7FCBCD;
+	width: 900px;
+}
+#rodape p {
+	text-align: center;
+	padding: 5px;
+}
+.centraliza {
+	margin: 0 auto;
+	display: block;
+}
+.list-sem-style {
+	list-style: none;
+	width: 100%;
+}
+.list-sem-style li {
+	display: block;
+	width: 870px;
+	padding: 5px;
+}
+.list-sem-style li img {
+	width: 800px;
+}
+.list-sem-style li p {
+	text-align: justify;
+}
+.table-componentes tr {
+	display: table;
+}
+.table-componentes tr td {
+	display: block;
+	height: 300px;
+	padding: 5px;
+
+}
+.table-componentes img {
+	width: 300px;
+}
+.table-componentes p {
+	text-align: justify;
+}
+
+.table-imagem img {
+	width: 425px;
+
+}
+.table-imagem tr td{
+	padding: 5px;
+}
